@@ -27,16 +27,16 @@ body{
     border-radius: 10px;
 }
 
-.login form{
+.login form, button{
     display: flex;
     width: 100%;
     flex-direction: column;
 }
 
-.login input{
+.login input, button{
     margin-top: 10px;
     background-color: #F2F2F2;
-    color: #11538C;
+    color: #F2F2F2;
     border: none;
     height: 45px;
     outline: none;
@@ -49,10 +49,11 @@ body{
     height: 50px;
 }
 
-p{
+p, a{
     justify-content: flex-end;
     padding-top: 15px;
     font-size: small;
+    color: #11538C;
 }
 
 input::placeholder{
@@ -61,7 +62,22 @@ input::placeholder{
 
 }
 
-form::[type="submit"]{
-    display: block;
+button{
+    display: flex;
     background-color: #11538C;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.entrar a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F2F2F2;
+    font-weight: bold;
+    width: 107%;
+    height: 90%;
 }
