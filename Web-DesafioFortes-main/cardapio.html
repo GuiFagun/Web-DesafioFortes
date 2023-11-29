@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cardapio.css">
+    <script src="./scripts/cardapio.js"></script>
+    <title>Cardápio</title>
+</head>
+<body>
+    <section class="pagina">
+        <div class="lista">
+            <div class="img">
+                <img src="./img/Logo Fortes.png" alt="Logo da fortes">
+            </div>
+            <div class="opcoes">
+                <ul>
+                    <li><a href="cardapio.html">Cardápio</a></li>
+                    <li><a href="relatorio.html">Relatório</a></li>
+                    <li><a href="fornecedor.html">Fornecedor</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="conteudo">
+            <div class="cabecalho">
+                <h2>Cardápio</h2>
+            </div>
+            <div class="cardapio">
+                <h2>Adicione uma nova refeição</h2>
+                <table id="tabela">
+                    <thead>
+                        <th>Prato Principal</th>
+                        <th>Acompanhamento</th>
+                        <th>Tipo de Refeição</th>
+                        <th>Local da obra</th>
+                        <th>Data da refeição</th>
+                        <th>Fornecedor</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        </tr>
+                    </tbody>
+                </table>
+                <button onclick="inserircardapio()">Inserir</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
