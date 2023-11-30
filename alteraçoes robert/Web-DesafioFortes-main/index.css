@@ -61,7 +61,23 @@ button::placeholder{
     font-size: 14px;
 }
 
-form::[type="submit"]{
-    display: block;
+button{
+    margin-top: 10px;
     background-color: #11538C;
+    color: #F2F2F2;
+    border: none;
+    height: 45px;
+    width: 283px;
+    outline: none;
+    border-radius: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: #F2F2F2;
+    display: block;
+}
+
+a:link, a:visited {
+    color: #f2f2f2;
 }
