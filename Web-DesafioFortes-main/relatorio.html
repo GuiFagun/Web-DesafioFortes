@@ -1,30 +1,92 @@
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="relatorio.css">
-    <title>Fornecedor</title>
+    <link rel="stylesheet" href="relatorio.css" type="text/css">
+    <title>Relatorio</title>
+
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    <section class="pagina">
-        <div class="lista">
-            <div class="img">
-                <img src="./img/Logo Fortes.png" alt="Logo da fortes">
-            </div>
-            <div class="opcoes">
-                <ul>
-                    <li><a href="cardapio.html">Cardápio</a></li>
-                    <li><a href="relatorio.html">Relatório</a></li>
-                    <li><a href="fornecedor.html">Fornecedor</a></li>
-                </ul>
-            </div>
-        </div>
-        
-        <div class="conteudo">
-            <div class="cabecalho">
-                <h2>Relatório</h2>
-            </div>
-        </div>
-    </section>
-</body>
+<table>
+  <thead>
+    <tr class="topo">
+      <th>REGISTRO</th>
+      <th>NOME</th>
+      <th>PRÓXIMA REFEIÇÃO</th>
+      <th>TIPO DE REFEIÇÃO</th>
+      <th>MARCOU HOJE</th>
+      <th>COMEU HOJE</th>
+    </tr>
+  </thead>
+  <tbody>
+        <tr>
+          <td>123456</td>
+          <td>Angel Romero</td>
+          <td>02/10/2023</td>
+          <td class="tipo">Almoço, Jantar</td>
+          <td>
+            <p id="comeu">Sim</p>
+          </td>
+          <td>
+            <p id="comeu">Sim</p>
+          </td>
+        </tr>
+        <tr>
+          <td>923834</td>
+          <td>Guilherme</td>
+          <td>17/09/2023</td>
+          <td class="tipo">Café, Jantar</td>
+          <td>
+            <p id="comeu">Sim</p>
+          </td>
+          <td>
+            <p id="naocomeu">Nao</p>
+          </td>
+        </tr>
+        <tr>
+          <td>786523</td>
+          <td>Robert</td>
+          <td>14/09/2023</td>
+          <td class="tipo">Café, Almoço, Jantar</td>
+          <td>
+            <p id="naocomeu">Nao</p>
+          </td>
+          <td>
+            <p id="comeu">Sim</p>
+          </td>
+        </tr>
+        <tr>
+          <td>999555</td>
+          <td>Caua</td>
+          <td>12/09/2023</td>
+          <td class="tipo">Almoço</td>
+          <td>
+            <p id="naocomeu">Nao</p>
+          </td>
+          <td>
+            <p id="naocomeu">Nao</p>
+          </td>
+        </tr>
+        <tr>
+          <td>923874</td>
+          <td>Joao Pedro</td>
+          <td>12/09/2023</td>
+          <td class="tipo">Jantar</td>
+          <td>
+            <p id="comeu">Sim</p>
+          </td>
+          <td>
+            <p id="comeu">Sim</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+  </body>
+
 </html>
