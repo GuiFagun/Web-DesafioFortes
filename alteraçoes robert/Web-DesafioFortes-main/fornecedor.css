@@ -1,0 +1,168 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    height: 87vh;
+    width: 100vw
+}
+
+.pagina{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+img{
+    width: 250px;
+    padding-bottom: 2px;
+}
+
+.lista{
+    height: 100%;
+    width:20%;
+    background-color: #f2f2f2;
+}
+
+.opcoes{
+    height: 100%;
+    background-color: #f2f2f2;
+}
+
+ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #11538C;
+    list-style-type: none
+}
+a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+    text-decoration: none;
+    color: #11538C;
+}
+
+li{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none; 
+    border: 1px #ddd solid;
+}
+
+
+.conteudo{
+    width: 80%;
+    height: 100%;
+}
+
+.cabecalho{
+    width: 100%;
+    height: 10%;
+    background-color: #f2f2f2;
+    border: 1px #ddd solid;
+    color: #11538C;
+    display: flex;
+    align-items: center;
+}
+
+.cardapio{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardapio table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 20px;
+}
+table {
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px #dfdfdf;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  thead {
+    box-shadow: 0 5px 10px #dfdfdf;
+  }
+  thead, table{
+    box-shadow: 0 5px 10px #dfdfdf;
+
+  }
+
+  th {
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+  }
+
+  td {
+    padding: 1rem 2rem;
+  }
+
+th,td {
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+thead{
+    background-color: #11538C;
+  }
+
+  thead  th{
+    color: #f2f2f2;
+  }
+
+th,td {
+    text-align: left;
+    padding: 8px;
+}
+
+
+button{
+    display: flex;
+    background-color: white;
+    color: #11538C;
+    font-size: 20px; 
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid  #11538C;
+    width: 70px;
+    height: 40px;
+}
+
+button:hover{
+    background-color: #62D9AD;
+    color: white;
+    border: 1px solid white;
+}
+
+li:hover, a:hover{
+    background-color: #11538C;
+    border: 1px black solid;
+    color: white;
+}
